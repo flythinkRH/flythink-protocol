@@ -1,0 +1,39 @@
+/*
+  PALETTE — sampled by k-means (k=6) over opaque pixels of
+  brand/LOGO FLYTHINK PNG...png (the alpha-carrying mark), snapped to the
+  nearest real pixel coordinate in that asset. This file is the only place
+  hex literals may appear; everything else references these tokens.
+
+  #1b2631  cluster center -> nearest real pixel (1132,884)  10.3% of opaque px
+  #455460  cluster center -> nearest real pixel (1098,874)  14.8% of opaque px
+  #6d7d87  cluster center -> nearest real pixel (1004,919)  18.2% of opaque px
+  #92a2aa  cluster center -> nearest real pixel (856,897)   19.1% of opaque px
+  #b7c7ce  cluster center -> nearest real pixel (908,913)   18.5% of opaque px
+  #deeaee  cluster center -> nearest real pixel (902,834)   19.2% of opaque px
+*/
+:root {
+  --fly-ink-900: #070b0f;
+  --fly-ink-800: #10161c;
+  --fly-ink-700: #1b2631;
+  --fly-slate-600: #455460;
+  --fly-slate-500: #6d7d87;
+  --fly-slate-400: #92a2aa;
+  --fly-frost-300: #b7c7ce;
+  --fly-frost-100: #deeaee;
+
+  --fly-bg: var(--fly-ink-900);
+  --fly-surface: var(--fly-ink-800);
+  --fly-border: var(--fly-ink-700);
+  --fly-text: var(--fly-frost-100);
+  --fly-text-dim: var(--fly-slate-400);
+  --fly-text-faint: var(--fly-slate-600);
+  --fly-accent: var(--fly-frost-300);
+  --fly-live: #7fd6a0;
+  --fly-pending: var(--fly-slate-400);
+
+  --fly-font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --fly-font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --fly-radius: 10px;
+  --fly-gap: clamp(1rem, 2vw, 2rem);
+}
